@@ -1,26 +1,30 @@
 {
-    "changeSet": {
-        "id": "6",
-        "author": "jesus R. G. O.",
-        "changes": [
-            {
-                "addColumn": {
-                    "schemaName": "public",
-                    "tableName": "person",
-                    "columns": [
-                        {
-                            "column": {
-                                "name": "CS3autoamte",
-                                "type": "int",
-                                "autoIncrement": false,
-                                "constraints": {
-                                    "nullable": false
+    "databaseChangeLog": [
+        {
+            "changeSet": {
+                "id": "6",
+                "author": "jesus R. G. O.",
+                "changes": [
+                    {
+                        "addColumn": {
+                            "schemaName": "public",
+                            "tableName": "person",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "CS3autoamte",
+                                        "type": "int",
+                                        "autoIncrement": false,
+                                        "constraints": {
+                                            "nullable": false
+                                        }
+                                    }
                                 }
-                            }
+                            ]
                         }
-                    ]
-                }
+                    }
+                ]
             }
-        ]
-    }
+        }
+    ]
 }

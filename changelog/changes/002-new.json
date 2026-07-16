@@ -1,0 +1,30 @@
+{
+    "databaseChangeLog": [
+        {
+            "changeSet": {
+                "id": "7",
+                "author": "jesus R. G. O.",
+                "changes": [
+                    {
+                        "addColumn": {
+                            "schemaName": "public",
+                            "tableName": "person",
+                            "columns": [
+                                {
+                                    "column": {
+                                        "name": "CS3Id",
+                                        "type": "int",
+                                        "autoIncrement": false,
+                                        "constraints": {
+                                            "nullable": false
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

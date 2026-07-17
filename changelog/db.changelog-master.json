@@ -5,6 +5,12 @@
         "file": "changes/001-init.json",
         "relativeToChangelogFile": true
       }
+    },
+    {
+      "include": {
+        "file": "changes/002-new.json",
+        "relativeToChangelogFile": true
+      }
     }
   ]
 }
